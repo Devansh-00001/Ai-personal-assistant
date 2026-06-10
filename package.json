@@ -1,0 +1,22 @@
+{
+  "name": "ai-personal-assistant",
+  "version": "1.0.0",
+  "description": "Full-stack AI-powered personal assistant",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm start",
+    "start": "echo 'Running backend and frontend...' && npm run start-backend & npm run start-frontend",
+    "dev": "echo 'Start backend: npm run start-backend' && echo 'Start frontend: npm run start-frontend'"
+  },
+  "keywords": [
+    "ai",
+    "productivity",
+    "task-management",
+    "notes",
+    "claude",
+    "anthropic"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
